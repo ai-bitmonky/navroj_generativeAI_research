@@ -1,0 +1,707 @@
+{
+ "OPPS": [
+  {
+   "id": "quick",
+   "title": "Write thank-you cards for hospital staff",
+   "host": "Asha Care Trust",
+   "kind": "Registered NGO",
+   "cause": "heart",
+   "mins": 20,
+   "len": "20 min",
+   "home": true,
+   "weekend": false,
+   "when": "Any time this week",
+   "where": "From home",
+   "dist": null,
+   "tags": [
+    "From home",
+    "Template sent to you"
+   ],
+   "cap": 40,
+   "taken": 26,
+   "slots": [
+    "Whenever you are free this week"
+   ],
+   "about": "You get a printable card template. Write short notes to nurses and ward staff, then hand them in at your nearest drop box. Takes about 20 minutes.",
+   "bring": "A pen",
+   "rating": 4.9,
+   "reviews": 212,
+   "verified": "Registered under 12A and 80G",
+   "fin": "Accounts published for FY 2025–26",
+   "rev": [
+    [
+     "Harpreet",
+     "22",
+     "I did it between classes. Easy first step."
+    ],
+    [
+     "Meena",
+     "47",
+     "Simple, and the trust sent a thank-you note back."
+    ]
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Evening reading hour with children",
+   "host": "Disha Learning Trust",
+   "kind": "Registered NGO",
+   "cause": "book",
+   "mins": 60,
+   "len": "1 hour",
+   "home": false,
+   "weekend": false,
+   "when": "Tue and Thu, 6 pm",
+   "where": "Community hall, 4th Block",
+   "dist": 1.2,
+   "x": 430,
+   "y": 240,
+   "tags": [
+    "No experience needed",
+    "Snacks covered"
+   ],
+   "cap": 12,
+   "taken": 8,
+   "slots": [
+    "Tue, 6 pm",
+    "Thu, 6 pm"
+   ],
+   "about": "Read aloud with a small group of children aged 6 to 9. A trained coordinator is in the room and gives you a story list before you start.",
+   "bring": "Nothing. Books are provided",
+   "rating": 4.8,
+   "reviews": 96,
+   "verified": "Registered NGO, ID checked",
+   "fin": "Accounts published for FY 2025–26",
+   "rev": [
+    [
+     "Simran",
+     "19",
+     "I was nervous. The coordinator made it easy and the kids were great."
+    ],
+    [
+     "Dev",
+     "34",
+     "Went after work. One hour, and I felt useful."
+    ]
+   ]
+  },
+  {
+   "id": "seniors",
+   "title": "Teach phone basics to seniors",
+   "host": "Saathi Elders Circle",
+   "kind": "Resident group",
+   "cause": "elder",
+   "mins": 90,
+   "len": "90 min",
+   "home": false,
+   "weekend": false,
+   "when": "Wednesday, 11 am",
+   "where": "Ward library, 0.8 km away",
+   "dist": 0.8,
+   "x": 575,
+   "y": 255,
+   "tags": [
+    "Hindi or Kannada helps",
+    "Tea covered"
+   ],
+   "cap": 8,
+   "taken": 5,
+   "slots": [
+    "Wed, 11 am"
+   ],
+   "about": "Sit with two or three seniors and show them how to video-call family, pay with UPI and spot scam messages. A printed checklist keeps it simple.",
+   "bring": "Your phone, charged",
+   "rating": 4.9,
+   "reviews": 41,
+   "verified": "Resident group, organiser ID checked",
+   "fin": "Small group, no funds collected",
+   "rev": [
+    [
+     "Arjun",
+     "28",
+     "They were so patient with me too. Best Wednesday in months."
+    ]
+   ]
+  },
+  {
+   "id": "library",
+   "title": "Sort donated books for the street library",
+   "host": "Pustak Ghar",
+   "kind": "Registered NGO",
+   "cause": "book",
+   "mins": 60,
+   "len": "1 hour",
+   "home": false,
+   "weekend": true,
+   "when": "Saturday, 4 pm",
+   "where": "Pustak Ghar shed, 1.6 km away",
+   "dist": 1.6,
+   "x": 350,
+   "y": 180,
+   "tags": [
+    "No experience needed",
+    "Bring a friend"
+   ],
+   "cap": 15,
+   "taken": 6,
+   "slots": [
+    "Sat, 4 pm"
+   ],
+   "about": "Sort, label and shelve donated books by reading level. Most volunteers come in pairs, and it is quiet, satisfying work.",
+   "bring": "Nothing",
+   "rating": 4.7,
+   "reviews": 58,
+   "verified": "Registered NGO, ID checked",
+   "fin": "Accounts published for FY 2025–26",
+   "rev": [
+    [
+     "Farah",
+     "24",
+     "Came with my sister. Chai, books and good music."
+    ]
+   ]
+  },
+  {
+   "id": "meals",
+   "title": "Pack and hand out Saturday meals",
+   "host": "Roti Bank Collective",
+   "kind": "Registered NGO",
+   "cause": "bowl",
+   "mins": 120,
+   "len": "2 hours",
+   "home": false,
+   "weekend": true,
+   "when": "Saturday, 9 am",
+   "where": "Kitchen on Station Road, 2.4 km away",
+   "dist": 2.4,
+   "x": 710,
+   "y": 420,
+   "tags": [
+    "Travel covered",
+    "No experience needed"
+   ],
+   "cap": 20,
+   "taken": 14,
+   "slots": [
+    "Sat, 9 am"
+   ],
+   "about": "Pack meals in the morning and hand them out with a team lead on a fixed route. Gloves and aprons are provided.",
+   "bring": "Closed shoes",
+   "rating": 4.8,
+   "reviews": 174,
+   "verified": "Registered under 12A and 80G",
+   "fin": "Accounts published for FY 2025–26",
+   "rev": [
+    [
+     "Aman",
+     "26",
+     "Well organised. We finished on time and got a proper debrief."
+    ]
+   ]
+  },
+  {
+   "id": "lake",
+   "title": "Lake clean-up walk",
+   "host": "Lakeside Citizens Forum",
+   "kind": "Resident group",
+   "cause": "leaf",
+   "mins": 120,
+   "len": "2 hours",
+   "home": false,
+   "weekend": true,
+   "when": "Sunday, 6:30 am",
+   "where": "North gate of the lake, 2.8 km away",
+   "dist": 2.8,
+   "x": 820,
+   "y": 205,
+   "tags": [
+    "Gloves provided",
+    "Family friendly"
+   ],
+   "cap": 40,
+   "taken": 23,
+   "slots": [
+    "Sun, 6:30 am"
+   ],
+   "about": "Walk the lake path in small teams, pick up plastic and log what you find on a shared sheet. Breakfast at the gate after.",
+   "bring": "Water bottle and a cap",
+   "rating": 4.6,
+   "reviews": 63,
+   "verified": "Resident group, organiser ID checked",
+   "fin": "Spends shared in the group monthly",
+   "rev": [
+    [
+     "Kavya",
+     "31",
+     "Early start, but the sunrise on the lake was worth it."
+    ]
+   ]
+  },
+  {
+   "id": "trees",
+   "title": "Plant saplings at the canal park",
+   "host": "Green Ward Society",
+   "kind": "Resident group",
+   "cause": "leaf",
+   "mins": 180,
+   "len": "3 hours",
+   "home": false,
+   "weekend": true,
+   "when": "Sunday, 7 am",
+   "where": "Canal park, gate 2, 3.1 km away",
+   "dist": 3.1,
+   "x": 235,
+   "y": 470,
+   "tags": [
+    "Tools provided",
+    "Bring a water bottle"
+   ],
+   "cap": 30,
+   "taken": 19,
+   "slots": [
+    "Sun, 7 am"
+   ],
+   "about": "Dig, plant and water 60 saplings with the ward group. A forester shows you how, and you can take a photo by your tree.",
+   "bring": "Water bottle and a cap",
+   "rating": 4.9,
+   "reviews": 88,
+   "verified": "Resident group, organiser ID checked",
+   "fin": "Spends shared in the group monthly",
+   "rev": [
+    [
+     "Ritu",
+     "41",
+     "Brought my kids. Lovely morning."
+    ]
+   ]
+  },
+  {
+   "id": "english",
+   "title": "Help Class 9 students with English, online",
+   "host": "Udaan Foundation",
+   "kind": "Registered NGO",
+   "cause": "laptop",
+   "mins": 30,
+   "len": "30 min",
+   "home": true,
+   "weekend": false,
+   "when": "Fridays, 7 pm",
+   "where": "Online",
+   "dist": null,
+   "tags": [
+    "Online",
+    "Training provided"
+   ],
+   "cap": 10,
+   "taken": 6,
+   "slots": [
+    "Fri, 7 pm"
+   ],
+   "about": "Practise speaking with two students on a video call. You get a 15-minute guide first and a topic list for each session.",
+   "bring": "A phone or laptop with a camera",
+   "rating": 4.8,
+   "reviews": 120,
+   "verified": "Registered under 12A and 80G",
+   "fin": "Accounts published for FY 2025–26",
+   "rev": [
+    [
+     "Karan",
+     "29",
+     "Half an hour from my sofa. Surprisingly rewarding."
+    ]
+   ]
+  }
+ ],
+ "REQS": [
+  {
+   "id": "r1",
+   "who": "Mrs Kaur",
+   "ini": "K",
+   "ver": "Phone verified",
+   "task": "Read out my pharmacy bills and sort my tablets",
+   "mins": 15,
+   "when": "Today, 5 pm",
+   "today": true,
+   "dist": "400 m",
+   "x": 470,
+   "y": 300,
+   "note": "My eyesight is weak. A short visit is enough.",
+   "cause": "elder",
+   "helped": 3,
+   "joined": "8 months ago"
+  },
+  {
+   "id": "r2",
+   "who": "Raman",
+   "ini": "R",
+   "ver": "Phone verified",
+   "task": "Carry grocery bags up to the third floor",
+   "mins": 20,
+   "when": "Today, 6:30 pm",
+   "today": true,
+   "dist": "700 m",
+   "x": 560,
+   "y": 385,
+   "note": "No lift in the building. Two bags, not heavy.",
+   "cause": "hand",
+   "helped": 1,
+   "joined": "2 months ago"
+  },
+  {
+   "id": "r3",
+   "who": "Neha, Class 10",
+   "ini": "N",
+   "ver": "Parent verified",
+   "task": "Explain two maths problems on a video call",
+   "mins": 30,
+   "when": "Tomorrow, 4 pm",
+   "today": false,
+   "dist": "Online",
+   "note": "Quadratic equations. A parent will be at home.",
+   "cause": "laptop",
+   "helped": 2,
+   "joined": "1 year ago"
+  },
+  {
+   "id": "r5",
+   "who": "Mr Iyer",
+   "ini": "I",
+   "ver": "ID verified",
+   "task": "Set up UPI on my new phone",
+   "mins": 20,
+   "when": "Tomorrow, 11 am",
+   "today": false,
+   "dist": "900 m",
+   "x": 420,
+   "y": 395,
+   "note": "My son usually helps but he is travelling.",
+   "cause": "phone",
+   "helped": 5,
+   "joined": "1 year ago"
+  },
+  {
+   "id": "r4",
+   "who": "Green Lane group",
+   "ini": "G",
+   "ver": "Group of 128 neighbours",
+   "task": "Feeding drive for street dogs needs 3 more helpers",
+   "mins": 90,
+   "when": "Sunday, 8 am",
+   "today": false,
+   "dist": "1.1 km",
+   "x": 620,
+   "y": 480,
+   "note": "We bring the food. You help serve and clean up.",
+   "cause": "paw",
+   "helped": 44,
+   "joined": "3 years ago"
+  }
+ ],
+ "GROUPS": [
+  {
+   "id": "g1",
+   "name": "Green Lane helpers",
+   "members": 128,
+   "about": "Weekly feeding and clean-up drives",
+   "cause": "paw"
+  },
+  {
+   "id": "g2",
+   "name": "Green Ward Society",
+   "members": 342,
+   "about": "Trees, parks and the canal",
+   "cause": "leaf"
+  },
+  {
+   "id": "g3",
+   "name": "4th Block Reading Circle",
+   "members": 86,
+   "about": "Story hours and a street library",
+   "cause": "book"
+  }
+ ],
+ "POSTS": [
+  {
+   "id": "p1",
+   "group": "Green Ward Society",
+   "cause": "leaf",
+   "ago": "2 h",
+   "text": "14 saplings planted at the canal park on Sunday. Thank you to the 19 of you who came. Next planting is in two weeks.",
+   "likes": 19,
+   "cover": "trees"
+  },
+  {
+   "id": "p2",
+   "group": "Green Lane helpers",
+   "cause": "paw",
+   "ago": "5 h",
+   "text": "Dog feeding this Sunday needs 3 more people. 45 minutes, and the food is covered.",
+   "likes": 11,
+   "req": "r4"
+  },
+  {
+   "id": "p3",
+   "group": "4th Block Reading Circle",
+   "cause": "book",
+   "ago": "1 d",
+   "text": "The street library crossed 600 books this month. Pustak Ghar needs sorters on Saturday afternoon.",
+   "likes": 32,
+   "opp": "library"
+  }
+ ],
+ "HISTORY": [
+  {
+   "id": "h1",
+   "title": "Pack and hand out Saturday meals",
+   "host": "Roti Bank Collective",
+   "when": "Last Saturday",
+   "len": "2 hours",
+   "cause": "bowl",
+   "opp": "meals",
+   "needsFeedback": true
+  },
+  {
+   "id": "h2",
+   "title": "Evening reading hour with children",
+   "host": "Disha Learning Trust",
+   "when": "2 weeks ago",
+   "len": "1 hour",
+   "cause": "book",
+   "cert": true
+  },
+  {
+   "id": "h3",
+   "title": "Carried groceries for Raman",
+   "host": "Informal help",
+   "when": "3 weeks ago",
+   "len": "20 min",
+   "cause": "hand",
+   "informal": true
+  }
+ ],
+ "USER": {
+  "name": "Simran",
+  "ini": "S",
+  "area": "Jayanagar, Bengaluru",
+  "verified": "Phone verified",
+  "hours": 9,
+  "activities": 4,
+  "neighbours": 2,
+  "weekly": [
+   1,
+   0.5,
+   2,
+   1,
+   3,
+   1.5
+  ],
+  "since": "June 2026"
+ },
+ "TIPS": [
+  "Meet in a public or shared space, or bring a friend",
+  "Chat in the app. Your number stays private",
+  "Tell someone at home where you are going",
+  "Report anything that feels off with one tap"
+ ],
+ "REFS": [
+  {
+   "n": "Be My Eyes",
+   "aw": "Apple Design Award 2021, Social Impact",
+   "take": "One tap connects a person who needs help with a person who can give it. Our “I can help” button works the same way.",
+   "url": "https://www.bemyeyes.com/"
+  },
+  {
+   "n": "Watch Duty",
+   "aw": "Apple Design Award 2025, Social Impact",
+   "take": "A calm live map where urgency shows through pulsing pins. Today’s requests pulse on our Help map.",
+   "url": "https://www.watchduty.org/"
+  },
+  {
+   "n": "Speechify",
+   "aw": "Apple Design Award 2025, Inclusivity",
+   "take": "Large type and language switching always within reach. Hindi is one tap from every home screen.",
+   "url": "https://speechify.com/"
+  },
+  {
+   "n": "Airbnb (2025 redesign)",
+   "aw": "Widely covered 2025 app redesign",
+   "take": "Dimensional icons that react when pressed, a 2×2 fact grid on listings, and a split list and map on desktop.",
+   "url": "https://www.designweek.co.uk/it-was-a-bit-nuts-teo-connor-on-designing-the-new-airbnb-app/"
+  },
+  {
+   "n": "Too Good To Go",
+   "aw": "Named by Apple among the best apps (2023)",
+   "take": "Time windows and spots left lead every card. Ours lead with minutes, not causes.",
+   "url": "https://www.toogoodtogo.com/"
+  },
+  {
+   "n": "OLIO",
+   "aw": "Design Museum, Beazley Designs of the Year 2019",
+   "take": "Neighbour-to-neighbour posts in two fields, sorted by distance. Our Ask for help form copies that lightness.",
+   "url": "https://designmuseum.org/exhibitions/beazley-designs-of-the-year/digital-2019/olio-the-food-sharing-app"
+  },
+  {
+   "n": "Obama Foundation",
+   "aw": "Webby Award 2025, Charitable / Non-profit site",
+   "take": "A bold split hero and a focused five-section navigation. Our desktop rail has five destinations.",
+   "url": "https://www.obama.org/"
+  },
+  {
+   "n": "Farm Africa",
+   "aw": "2025 Webby Awards, Charitable / Non-profit",
+   "take": "Filter by theme without leaving the page. Our cause and time filters update the list and map together.",
+   "url": "https://www.farmafrica.org/"
+  },
+  {
+   "n": "Team London Speed Volunteering",
+   "aw": "Webby nominee, City and Urban Innovation",
+   "take": "Short, one-off roles that fit around life. Our 20-minute first step comes from the same insight.",
+   "url": "https://www.london.gov.uk/city-hall-blog/team-londons-speed-volunteering-app-nominated-webby-award"
+  },
+  {
+   "n": "Surfers Against Sewage",
+   "aw": "Numiko’s best non-profit websites 2026",
+   "take": "A local interactive map makes the cause personal. Ours centres on you and your 3 km.",
+   "url": "https://www.sas.org.uk/"
+  }
+ ],
+ "NOTES": {
+  "welcome": [
+   "Start with time, not causes",
+   [
+    "65% of India’s volunteers gave five hours or less in a month, so we ask about time and default to short starts.",
+    "Your answers set the home screen: the time filter and which path opens first.",
+    "Skipping is always allowed."
+   ],
+   [
+    4,
+    8
+   ]
+  ],
+  "home": [
+   "Two equal paths, one switch",
+   [
+    "88% of volunteering in India is informal, so Help nearby sits beside Join an activity instead of hiding in a menu.",
+    "Time chips answer the top enabler after money: flexible schedules (25.5%).",
+    "The dark card is a 20-minute task you can do from home. It is the smallest way in."
+   ],
+   [
+    4,
+    6,
+    8
+   ]
+  ],
+  "help": [
+   "Neighbours first, organisations second",
+   [
+    "81% of volunteering is self-organised. Requests from verified neighbours are sorted by distance.",
+    "Today’s requests pulse on the map so the urgent ones stand out.",
+    "Start a drive and Ask for help are one tap away."
+   ],
+   [
+    0,
+    1,
+    5,
+    9
+   ]
+  ],
+  "detail": [
+   "Answer “is this credible?” before “join”",
+   [
+    "Verified host and published finances come first. Newcomers find credible groups hard to spot.",
+    "The 2×2 grid shows when, how long, where and spots left at a glance.",
+    "One tap shares to WhatsApp. Seniors rely on word of mouth (92%), students on social (52%)."
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "success": [
+   "Close the loop from day one",
+   [
+    "Satisfaction is the strongest predictor of a first-timer returning, so we confirm, remind and invite a friend straight away.",
+    "A reminder and a calendar add reduce no-shows."
+   ],
+   [
+    0
+   ]
+  ],
+  "request": [
+   "Informal help, with safety built in",
+   [
+    "The exact address is shared only after you accept. Chat stays in the app.",
+    "Badges show how each person was checked.",
+    "Safety tips appear before you commit, not buried in settings."
+   ],
+   [
+    0,
+    5
+   ]
+  ],
+  "chat": [
+   "Quick replies keep it short",
+   [
+    "Most informal help is a short, one-off favour. Preset replies make coordination fast, also in Hindi."
+   ],
+   [
+    2
+   ]
+  ],
+  "drive": [
+   "81% of activities are self-organised",
+   [
+    "Starting a drive takes three steps and ends in a WhatsApp invite, where people already organise.",
+    "Hosts need a verified phone. ID verification unlocks larger drives."
+   ],
+   [
+    5
+   ]
+  ],
+  "ask": [
+   "Asking is a first-class action",
+   [
+    "People who avoid organisations still need and give help. A two-field request keeps it light."
+   ],
+   [
+    5
+   ]
+  ],
+  "community": [
+   "Peer influence keeps people coming back",
+   [
+    "Social norms predict retention at every stage. Groups show what neighbours did and invite you to the next one."
+   ],
+   [
+    9
+   ]
+  ],
+  "activity": [
+   "Feedback is the retention loop",
+   [
+    "Past activities ask one question and offer a next step in one tap."
+   ],
+   [
+    0
+   ]
+  ],
+  "feedback": [
+   "One question, then a next step",
+   [
+    "Three faces, no forms. A good experience leads straight to the next session."
+   ],
+   [
+    0
+   ]
+  ],
+  "me": [
+   "Recognition people actually want",
+   [
+    "Students get hours and certificates. Everyone can hide them: homemakers and seniors told researchers they do not want badges."
+   ],
+   [
+    2
+   ]
+  ]
+ }
+}

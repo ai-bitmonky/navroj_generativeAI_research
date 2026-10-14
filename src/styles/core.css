@@ -1,0 +1,110 @@
+/* ekoo design system — "Sun & Tide"
+   Layout concept: one product, two shells. Desktop = rail + split list/map; Mobile = native iOS-style stack.
+   Two brand paths: SUN (join an organised activity) and TIDE (help a neighbour). Ink is the neutral voice. */
+:root{
+  /* neutrals, slightly biased toward tide-green so they read as chosen, not default grey */
+  --paper:#F1F3F0;        /* app background */
+  --surface:#FFFFFF;      /* cards, sheets */
+  --surface-2:#E7EBE7;    /* soft fills, chips, fact tiles */
+  --surface-3:#DCE1DC;    /* pressed / hover fill */
+  --ink:#111413;          /* text */
+  --ink-2:#4B534F;        /* secondary text (AA on paper) */
+  --ink-3:#7A837E;        /* tertiary, captions, placeholders */
+  --line:rgba(17,20,19,.11);
+  --line-strong:rgba(17,20,19,.2);
+  /* brand */
+  --sun:#FBE33B;  --sun-2:#F2CF1A;  --on-sun:#141414;
+  --tide:#2FC4AE; --tide-2:#1FA693; --on-tide:#0C1A17;
+  --mint:#C9F2E5; --mint-ink:#0B5C51;
+  --leaf:#7DB35E; --coral:#FF7452; --sky:#9CC9FF;
+  --danger:#C2362B; --ok:#2E8B57;
+  /* material */
+  --glass:rgba(248,250,248,.72);
+  --scrim:rgba(8,10,9,.42);
+  --shadow-1:0 1px 2px rgba(17,20,19,.06),0 2px 8px rgba(17,20,19,.05);
+  --shadow-2:0 2px 6px rgba(17,20,19,.06),0 14px 34px rgba(17,20,19,.12);
+  --shadow-3:0 10px 30px rgba(17,20,19,.16),0 40px 80px rgba(17,20,19,.18);
+  --map-land:#E4EAE3; --map-road:#FFFFFF; --map-park:#BFE3B0; --map-water:#B9E3EF; --map-block:#D7DED6;
+  /* type */
+  --display:"Bricolage Grotesque Variable","Bricolage Grotesque","Golos Text",ui-sans-serif,system-ui,sans-serif;
+  --body:"Golos Text Variable","Golos Text","Noto Sans Devanagari Variable","Noto Sans Devanagari",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --native:-apple-system,BlinkMacSystemFont,"SF Pro Text","Golos Text Variable","Noto Sans Devanagari Variable",system-ui,sans-serif;
+  /* motion */
+  --spring:cubic-bezier(.32,.72,0,1);      /* iOS sheet / push curve */
+  --bounce:cubic-bezier(.34,1.56,.64,1);
+  --ease:cubic-bezier(.2,.7,.2,1);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0C0F0E; --surface:#161A19; --surface-2:#1F2523; --surface-3:#29302E;
+    --ink:#EEF2EF; --ink-2:#A8B1AC; --ink-3:#77817C;
+    --line:rgba(255,255,255,.1); --line-strong:rgba(255,255,255,.2);
+    --mint:#12352F; --mint-ink:#86E6D4; --tide-2:#45D6C0;
+    --glass:rgba(22,26,25,.72); --scrim:rgba(0,0,0,.6);
+    --shadow-1:0 1px 2px rgba(0,0,0,.4); --shadow-2:0 2px 6px rgba(0,0,0,.35),0 14px 34px rgba(0,0,0,.45); --shadow-3:0 10px 30px rgba(0,0,0,.5),0 40px 80px rgba(0,0,0,.55);
+    --map-land:#18201E; --map-road:#2A3330; --map-park:#1F3A2A; --map-water:#173640; --map-block:#1E2725;
+    --danger:#FF8A7A; --ok:#6FD39A;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0C0F0E; --surface:#161A19; --surface-2:#1F2523; --surface-3:#29302E;
+  --ink:#EEF2EF; --ink-2:#A8B1AC; --ink-3:#77817C;
+  --line:rgba(255,255,255,.1); --line-strong:rgba(255,255,255,.2);
+  --mint:#12352F; --mint-ink:#86E6D4; --tide-2:#45D6C0;
+  --glass:rgba(22,26,25,.72); --scrim:rgba(0,0,0,.6);
+  --shadow-1:0 1px 2px rgba(0,0,0,.4); --shadow-2:0 2px 6px rgba(0,0,0,.35),0 14px 34px rgba(0,0,0,.45); --shadow-3:0 10px 30px rgba(0,0,0,.5),0 40px 80px rgba(0,0,0,.55);
+  --map-land:#18201E; --map-road:#2A3330; --map-park:#1F3A2A; --map-water:#173640; --map-block:#1E2725;
+  --danger:#FF8A7A; --ok:#6FD39A;
+  color-scheme:dark;
+}
+html,body{height:100%}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-tap-highlight-color:transparent;overflow:hidden;overscroll-behavior:none;touch-action:manipulation;-webkit-text-size-adjust:100%}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none;padding:0;text-align:inherit}
+input,textarea,select{font:inherit;color:inherit}
+h1,h2,h3,h4{text-wrap:balance}
+:focus-visible{outline:2.5px solid var(--tide);outline-offset:2px;border-radius:8px}
+svg.i{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;flex:none;display:inline-block;vertical-align:middle}
+svg.i.sm{width:16px;height:16px}
+svg.i.md{width:19px;height:19px}
+svg.i.lg{width:28px;height:28px}
+svg.i.fill{fill:currentColor;stroke-width:1.4}
+.num{font-variant-numeric:tabular-nums}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- app hosts ---------- */
+#ek-root{position:fixed;inset:0;overflow:hidden;background:var(--paper)}
+.ek-desk{position:absolute;inset:0}
+.mfull{position:absolute;inset:0}
+.screen{position:relative;width:100%;height:100%;overflow:hidden;background:var(--paper);isolation:isolate;container-type:size}
+/* launch screen shown until the client engine mounts */
+.ek-launch{position:absolute;inset:0;display:grid;place-items:center;background:var(--paper);z-index:5;transition:opacity .35s ease}
+.ek-launch.out{opacity:0;pointer-events:none}
+.ek-launch .mark{display:flex;align-items:center;gap:14px;font-family:var(--display);font-weight:700;font-size:44px;letter-spacing:-.03em;color:var(--ink)}
+.ek-launch .dots{position:relative;width:46px;height:28px}
+.ek-launch .dots i{position:absolute;top:0;width:28px;height:28px;border-radius:50%;animation:ekpulse 1.4s var(--ease) infinite}
+.ek-launch .dots i:first-child{left:0;background:var(--sun)}
+.ek-launch .dots i:last-child{left:18px;background:var(--tide);animation-delay:.2s;mix-blend-mode:multiply}
+@keyframes ekpulse{50%{transform:scale(.82)}}
+.ek-noscript{position:absolute;inset:auto 16px 24px;text-align:center;color:var(--ink-2)}
+/* research modal (desktop) */
+.pmodal{position:fixed;inset:0;z-index:200;display:grid;place-items:center;background:var(--scrim);padding:20px;animation:pfade .2s ease}
+.pmodal .card{background:var(--surface);border-radius:28px;max-width:860px;width:100%;max-height:calc(100vh - 40px);overflow:auto;padding:28px 30px;box-shadow:var(--shadow-3);animation:ppop .35s var(--spring)}
+.pmodal h2{font-family:var(--display);font-size:32px;letter-spacing:-.02em;margin:0 0 6px;line-height:1.05}
+.pmodal .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:18px}
+.pmodal .ref{border:1px solid var(--line);border-radius:18px;padding:14px 16px;display:grid;gap:4px;align-content:start}
+.pmodal .ref .aw{font-size:11.5px;font-weight:600;color:var(--mint-ink);background:var(--mint);border-radius:999px;padding:3px 9px;justify-self:start}
+.pmodal .ref b{font-size:15.5px}
+.pmodal .ref span{font-size:13.5px;color:var(--ink-2)}
+.pmodal .ref a{font-size:12.5px;color:var(--ink-3)}
+.pmodal .x{float:right;width:38px;height:38px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center}
+@keyframes pfade{from{opacity:0}}
+@keyframes ppop{from{transform:translateY(24px) scale(.98);opacity:0}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+/* Small tablets in portrait (640–1023px) keep the phone layout, centred like an iPhone app on iPad. */
+@media (min-width:640px) and (max-width:1023.98px){
+  #ek-root{background:radial-gradient(circle at 12% 18%,color-mix(in srgb,var(--sun) 30%,transparent) 0 140px,transparent 141px),radial-gradient(circle at 88% 82%,color-mix(in srgb,var(--tide) 26%,transparent) 0 180px,transparent 181px),var(--paper)}
+  .mfull{left:0;right:0;margin:0 auto;max-width:560px;box-shadow:0 0 0 1px var(--line),var(--shadow-3)}
+}
